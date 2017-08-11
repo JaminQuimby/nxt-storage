@@ -1,0 +1,63 @@
+{
+  "name": "ngx-store",
+  "version": "1.1.6",
+  "main": "./dist/index",
+  "typings": "./dist/index",
+  "description": "Angular decorator to save and restore class properties automatically from LocalStorage and SessionStorage.",
+  "scripts": {
+    "lint": "tslint ./*.ts -t verbose",
+    "build": "rimraf dist && ngc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zoomsphere/ngx-store.git"
+  },
+  "keywords": [
+    "Angular",
+    "Angular2",
+    "Angular4",
+    "LocalStorage",
+    "SessionStorage",
+    "Storage",
+    "Wrapper",
+    "Cookies",
+    "Decorator",
+    "Library"
+  ],
+  "author": "Daniel Kucal & Marc J. Schmidt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoomsphere/ngx-store/issues"
+  },
+  "homepage": "https://github.com/zoomsphere/ngx-store",
+  "peerDependencies": {
+    "@angular/core": ">=2.3.0",
+    "core-js": "^2.4.1",
+    "rxjs": ">=5.0.0",
+    "zone.js": ">=0.7.2"
+  },
+  "devDependencies": {
+    "@angular/compiler": "~4.0.0",
+    "@angular/compiler-cli": "~4.0.0",
+    "@angular/core": "~4.0.0",
+    "@angular/platform-server": "~4.0.0",
+    "@types/node": "^7.0.39",
+    "core-js": "^2.4.1",
+    "es6-shim": "^0.35.3",
+    "rimraf": "^2.5.4",
+    "rxjs": "^5.4.2",
+    "tslint": "^4.5.0",
+    "typescript": "~2.2.2",
+    "zone.js": "^0.8.16"
+  },
+  "dependencies": {
+    "ts-debug": "^1.0.5"
+  },
+  "//": "\"engineStrict\": false,",
+  "engines": {
+    "node": ">= 4.2.1",
+    "npm": ">= 5"
+  }
+}
